@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<!-- Ex3
+     -->
+<html lang = "en">
+<head>
+  <title> InputForm</title>
+  <meta charset = "utf-8" />
+  <script type = "text/javascript" src = "ex3.js"></script>
+  <link rel="stylesheet" type="text/css" href="ex3.css"/>
+</head>
+<body>
+    <h3> Input Form </h3>
+    <form id = "myForm"  action = "" >
+      <p>
+      <label> Name:
+        <input type = "text" id = "name"  
+                />
+      </label>
+      <br /><br />
+      <label> Student ID:
+        <input type = "text"  id = "studentID" 
+               />
+      </label>
+      <br /><br />
+      <label> Email:
+        <input type = "text"  id = "email" 
+               />
+      </label>
+      <br /><br />
+      <input type = "reset"  name = "reset" />
+      <input type = "submit"  onsubmit="emptyField()" name = "submit" />
+      </p>
+    </form>
+    
+<!-- Script for registering the event handlers  -->
+
+    <script type = "text/javascript"  src = "inputformr.js">
+    </script>
+</body>
+</html>
